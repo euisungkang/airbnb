@@ -1,0 +1,29 @@
+<h3>Listings</h3>
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Location</th>
+        <th>Description</th>
+        <th>numberOfPeople</th>
+        <th>pricePerNight</th>
+        <th>hostId</th>
+        <th>url</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-row" *ngFor="let listing of listings">
+        <td>{{listing.Id}}</td>
+        <td>{{listing.title}}</td>
+        <td>{{listing.location}}</td>
+        <td class = "description">{{listing.description}}</td>
+        <td>{{listing.numberOfPeople}}</td>
+        <td>{{listing.pricePerNight}}</td>
+        <td>{{listing.hostId}}</td>
+        <td>{{listing.url}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,16 @@
+h3 {
+    float: left;
+}
+
+button {
+    float: right;
+    background-color: #FD5C63;
+}
+
+.table-row{
+    cursor: pointer;
+}
+
+.table-row:hover{
+    background-color: rgba(0, 123, 255, 0.5);
+}
